@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="form.css">
+    </head>
+    <body>
+    
+        <div>
+
+            <h1>WELLCOME TO FULLSTACK</h1>
+
+        </div>
+
+        
+        <form>
+            
+
+            <div>
+
+                <div class="subheading">
+
+                    <h4>Personal Details</h4>
+    
+                </div><br><br>
+    
+                <div id="border">
+    
+                    <div>
+                        Name:<input type="text" class="formcontrol" id="name" name="name" placeholder="Enter Your Full Name"><label name="Name" ></label>
+                    </div><br>
+        
+                    <div>
+                        Email:<input type="email" class="formcontrol" id="email" name="email" placeholder="Enter Your Email"><label name="Email" ></label>
+                    </div><br>
+        
+                    <div>
+                        Mobile Number:<input type="text" class="formcontrol" id="mobile number" name="mobile number" maxlength="10" placeholder="Enter Your 10 Digit Mobile Number"><label name="Name" ></label>
+                    </div><br>
+        
+                    <div>
+                        Date Of Borth:<input type="date" id="dob" name="date of borth"><label name="Date Of Borth" ></label>
+                    </div><br>
+        
+                    <div>
+                        Gender:<input type="radio" class="formgender" id="gender" name="gender"><label name="Name" >Male</label>
+                        <input type="radio" class="formgender1" id="gender" name="gender"><label name="Name" >Female</label>
+                        <input type="radio" class="formgender2" id="gender" name="gender"><label name="Name" >Other</label>
+                    </div><br>
+        
+                    <div>
+                        Aadhar Card:<input type="file" id="aadharcard" name="aadhar card"><label name="Adhar Card" ></label>
+                        <input type="file" id="aadharcard" name="aadhar card"><label name="Adhar Card" ></label>
+                    </div>
+    
+                </div>
+
+            </div>
+
+
+            <div>
+
+                <div>
+
+                    <h4>Parent / Guardian Details</h4>
+    
+                </div>
+    
+                <div class="border">
+    
+                    <div>
+                        Parent / Guardian / Spouse Name:<input type="text" class="formcontrol" id="Parent / Guardian / Spouse Name" name="Parent / Guardian / Spouse Name" placeholder="Enter Your Parent / Guardian / Spouse Name"><label name="Parent / Guardian / Spouse Name" ></label>
+                    </div><br>
+        
+                    <div>
+                        Parent / Guardian / Spouse Phone:<input type="text" class="formcontrol" id="Parent / Guardian / Spouse Phone" name="Parent / Guardian / Spouse Phone" maxlength="10" placeholder="Enter Your Parent / Guardian / Spouse Phone"><label name="Parent / Guardian / Spouse Phone" ></label>
+                    </div><br>
+    
+                </div>
+
+            </div>
+
+
+            <div>
+
+                <div>
+
+                    <h4>Residential Details</h4>
+    
+                </div>
+    
+                <div class="border">
+    
+                    <div>
+                        <!-- <input type="text" id="Local Address" name="Local Address" placeholder="Enter Your Local Address"><label name="Local Address" ></label> -->
+                        Local Address:<textarea name="Local Address:" id="Local Address:" cols="60" rows="10" placeholder="Local Address"></textarea>
+                    </div><br>
+
+                    <div>
+                        <input type="radio" id="Same as Permanent Address" name="Same as Permanent Address"><label name="Same as Permanent Address" >Same as Permanent Address</label>
+                    </div><br>  
+        
+                    <div>
+                        <!-- Permanent Address:<input type="text" id="Permanent Address" name="Permanent Address" placeholder="Enter Your Permanent Address"><label name="Permanent Address" ></label> -->
+                        Permanent Address:<textarea name="Permanent Address:" id="Permanent Address:" cols="60" rows="10" placeholder="Permanent Address"></textarea>
+                    </div><br>
+    
+                </div>
+
+            </div>
+
+
+            <div>
+
+                <div>
+
+                    <h4>Educational Details</h4>
+    
+                </div>
+    
+                <div class="border">
+    
+                    <div>
+                        Are You a ?<input type="radio" id="Are You a?" name="Are You a?"><label name="Are You a?" >Student</label>
+                        <input type="radio" id="Are You a?" name="Are You a?"><label name="Are You a?" >Working Professional</label>
+                    </div><br>  
+        
+                    <div >
+                        Last Attained Qualification:<input type="text" class="formcontrol" id="Last Attained Qualification" name="Last Attained Qualification" placeholder="Your latest educational Degree/Diploma"><label name="Last Attained Qualification" ></label>
+                    </div><br>
+
+                    <div>
+                        Year:<input type="text" class="formcontrol" id="year" name="year" maxlength="4" placeholder="Completion Year"><label name="year"></label>
+                    </div><br>
+
+                    <div>
+                        College/Univercity:<input type="text" class="formcontrol" id="College/Univercity" name="College/Univercity" placeholder="College/Univercity"><label name="College/Univercity"></label>
+                    </div><br>
+    
+                </div>
+
+            </div>
+
+
+            <div>
+
+                <div>
+
+                    <h4>Course Details</h4>
+    
+                </div>
+    
+                <div class="border">
+    
+                    <div>
+                 
+                       Course:<label name="Course" ></label>
+                        <select name="Courses" id="Courses">
+                         <option value="Course" selected disabled>course you opted for </option>
+                         <option value="Course">Advance Java </option>
+                         <option value="Course">Android </option>
+                         <option value="Course">computer basis</option>
+                         <option value="Course">core java </option>
+                         <option value="Course">digital marketing </option>
+                         <option value="Course">full stack development </option>
+                         <option value="Course">graphics designing </option>
+                         <option value="Course">node JS </option>
+                         <option value="Course">photoshop </option>
+                         <option value="Course">php </option>
+                         <option value="Course">python </option>
+                         <option value="Course">react JS </option>
+                         <option value="Course">web designing</option>
+                         <option value="Course">other course </option>
+
+                        </select>
+                    </div><br>  
+        
+                    <div >
+                        How you came to know about us?:<input type="radio" id="How you came to know about us?" name="How you came to know about us?"><label name="How you came to know about us?" >Google</label>
+                        <input type="radio" id="How you came to know about us?" name="How you came to know about us?"><label name="How you came to know about us?" >Facebook</label>
+                        <input type="radio" id="How you came to know about us?" name="How you came to know about us?"><label name="How you came to know about us?" >Instagram</label>
+                        <input type="radio" id="How you came to know about us?" name="How you came to know about us?"><label name="How you came to know about us?" >College TPO</label>
+                        <input type="radio" id="How you came to know about us?" name="How you came to know about us?"><label name="How you came to know about us?" >Other</label>
+                    </div>
+    
+                </div>
+
+                <div>
+                    <br>
+                    <div>
+                        <input type="radio" id="Condition" name="Condition" placeholder="Condition"><label name="Condition">By clicking submit, you agree to our Terms & Conditions</label>
+                    </div><br>
+
+                    <div class="submit">
+                        <button type="submit">Submit</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </form>
+
+    </body>
+
+</html>
